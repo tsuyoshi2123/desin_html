@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.site-title {
+  width: 120px;
+}
