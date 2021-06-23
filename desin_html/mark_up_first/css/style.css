@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+
 html {
   font-size: 100%;
+}
+
+h1 {
+  font-size: 0;
 }
 
 body {
@@ -10,7 +20,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  font-size: 0;
 }
 
 img {
@@ -22,12 +32,87 @@ li {
 }
 
 .wrapper {
-  width: 960px;
-  display: flex;
-  margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  margin: 0 auto 100px;
+  padding: 0 4%;
+  text-align: center;
 }
 
-.site-title {
+#header {
+  display: flex;
+  margin: 0 auto;
+}
+
+.site__title {
   width: 120px;
+  padding: 9px 0;
+}
+
+.gnav__item {
+  display: flex;
+  padding: 14px 0;
+}
+
+.gnav__icon {
+  margin-left: 30px;
+}
+
+.gnav__icon:first-child {
+  margin-left: 0;
+}
+
+.is-about, .is-bicycle{
+  font-size: 14px;
+  text-decoration: none;
+  color: #24292e;
+}
+
+.main__visual {
+  margin-bottom: 80px;
+}
+
+.main__picture {
+  height: 600px;
+  width: 1920px;
+  object-fit: cover;
+}
+
+.section__box {
+  margin-bottom: 80px;
+}
+
+.title {
+  font-size: 30px;
+  border-bottom: solid #383e45;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+
+.content__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+
+.content__box .text {
+  text-align: left;
+}
+
+.text .content__title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.content__text {
+
 }
