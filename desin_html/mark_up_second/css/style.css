@@ -11,3 +11,10 @@ body {
 img {
   max-width: 100%;
 }
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+#header {
+  margin-top: 60px;
+}
