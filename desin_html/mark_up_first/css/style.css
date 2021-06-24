@@ -80,7 +80,7 @@ li {
 }
 
 .section__box {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .title {
@@ -109,10 +109,31 @@ li {
 }
 
 .text .content__title {
+  margin: 10px 0;
   font-size: 1rem;
+}
+
+.text .content__text {
+  font-size: 14px;
+}
+
+.pictures {
+  justify-content: space-between;
+  display: flex;
+}
+
+.pictures li .picuter {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pictures li .content__title {
   margin: 10px 0;
 }
 
-.content__text {
-
+.footer {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 10px 0;
 }
