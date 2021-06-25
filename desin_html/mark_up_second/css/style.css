@@ -17,4 +17,32 @@ img {
 }
 #header {
   margin-top: 60px;
+  text-align: left;
+}
+.site_title {
+  width: 160px;
+  line-height: 1px;
+  margin-bottom: 15px;
+}
+
+.section_box {
+  margin-top: 60px;
+  background-color: #fff;
+}
+
+.section_box .inner {
+  padding: 38px;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.section_box .title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.section_box ul li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 2.8rem;
 }
